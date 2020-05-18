@@ -1,0 +1,198 @@
+{
+    "products": [
+        {
+            "image": {
+                "src": "plastic-bottle-lemon-myrtle.png",
+                "alt": "Lemon Myrtle Dishwash Concentrate product image",
+                "color": "#fdae30"
+            },
+            "name": "Lemon Myrtle",
+            "category": "Dishwash Liquid",
+            "description": "A concentrated readily biodegradable plant based cleaner. Powers through grease yet gentle on your hands & the environment. \\n You only need a small squirt leaving dishes sparkling clean with a fresh Lemon Myrtle scent.",
+            "how_to_use": "Simply aim cap directly at sponge, dishes or sink before squeezing – close cap when not in use.",
+            "dotpoints": [
+                "Environmentally Responsible",
+                "Highly Concentrated",
+                "Readily biodegradable detergents",
+                "Contains Plant based ingredients",
+                "Contains Australian Lemon Myrtle",
+                "Cuts through grease & oil",
+                "Gentle on hands – gentle on the environment",
+                "Grey Water & Septic Safe",
+                "No Animal Testing",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
+        },
+        {
+            "image": {
+                "src": "plastic-bottle-kakadu-plum.png",
+                "alt": "Kakadu Plum Dishwash Concentrate product image",
+                "color": "#288a3e"
+            },
+            "name": "Kakadu Plum",
+            "category": "Dishwash Liquid",
+            "description": "A concentrated readily biodegradable plant based cleaner. Powers through grease yet gentle on your hands & the environment. \\n You only need a small squirt leaving dishes sparkling clean with a fresh Kakadu Plum scent.",
+            "how_to_use": "Simply aim cap directly at sponge, dishes or sink before squeezing – close cap when not in use.",
+            "dotpoints": [
+                "Environmentally Responsible",
+                "Highly Concentrated",
+                "Readily biodegradable detergents",
+                "Contains Plant based ingredients",
+                "Contains Australian Kakadu Plum",
+                "Cuts through grease & oil",
+                "Gentle on hands – gentle on the environment",
+                "Grey Water & Septic Safe",
+                "No Animal Testing",
+                "Ergonomically designed packaging",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
+        },
+        {
+            "image": {
+                "src": "spray-plastic-bottle-finger-lime.png",
+                "alt": "Finger Lime All Purpose Cleaner product image",
+                "color": "#c62724"
+            },
+            "name": "Finger Lime",
+            "category": "All Purpose Cleaner",
+            "description": "An eco friendly cleaner designed to clean all washable hard surfaces leaving behind a fresh Finger Lime scent.",
+            "how_to_use": "Simply spray onto surface to be cleaned then wipe away with a clean cloth. Spot test surface before using.",
+            "dotpoints": [
+                "Environmentally Responsible",
+                "Readily biodegradable detergents",
+                "Contains Plant based ingredients",
+                "Sugar cane derived bio-solvent ",
+                "Food safe colours",
+                "Contains Finger & Frangipani scents",
+                "Cuts through grease & grime ",
+                "Gentle on the environment",
+                "Safe to use on all hard surfaces",
+                "Grey Water & Septic Safe",
+                "No Animal Testing",
+                "Ergonomically designed packaging",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
+        },
+        {
+            "image": {
+                "src": "spray-plastic-bottle-frangipani.png",
+                "alt": "Frangipani All Purpose Cleaner product image",
+                "color": "#f3431c"
+            },
+            "name": "Frangipani",
+            "category": "All Purpose Cleaner",
+            "description": "An eco friendly cleaner designed to clean all washable hard surfaces leaving behind a fresh Frangipani scent.",
+            "how_to_use": "Simply spray onto surface to be cleaned then wipe away with a clean cloth. Spot test surface before using.",
+            "dotpoints": [
+                "Environmentally Responsible",
+                "Readily biodegradable detergents",
+                "Contains Plant based ingredients",
+                "Sugar cane derived bio-solvent ",
+                "Food safe colours",
+                "Contains Frangipani scents",
+                "Cuts through grease & grime",
+                "Gentle on the environment",
+                "Safe to use on all hard surfaces",
+                "Grey Water & Septic Safe",
+                "No Animal Testing",
+                "Ergonomically designed packaging",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
+        },
+        {
+            "image": {
+                "src": "hand-and-body-wash-acacia-breeze.png",
+                "alt": "",
+                "color": "#a87fb4"
+            },
+            "name": "Acacia Breeze",
+            "category": "Hand & Body Wash",
+            "description": "A concentrated readily biodegradable pearlescent plant based hand & body wash cleanser. Luxuriously high foaming and containing a rich blend of moisturisers, pH balanced to leave your hands & body nourished & refreshingly clean.\\n You only need one squirt to ensure your hands are hygienically clean leaving behind the fresh scent of the Australian outback.\\n Good hand hygiene starts with Zoosh Hand & Body Wash – helps avoid the spread of germs.",
+            "how_to_use": "Simply dispense 1-2 pumps onto palm of hands or bath sponge. Lather up over hands or body and rinse thoroughly under running water then dry hands. Suitable for use as a hand, face & all over body cleanser.",
+            "dotpoints": [
+                "Environmentally responsible",
+                "Highly Concentrated ",
+                "Readily biodegradable cleansers ",
+                "Contains plant based ingredients",
+                "pH balanced for the skin ",
+                "High foaming",
+                "Contains moisturisers & pearlescent",
+                "Leaves skin feeling soft & supple",
+                "Enriched with heavenly scents",
+                "Gentle on the environment",
+                "Free rinsing ",
+                "No animal testing",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
+        },
+        {
+            "image": {
+                "src": "hand-and-body-wash-coorong-blue.png",
+                "alt": "",
+                "color": "#69b9b3"
+            },
+            "name": "Coorong Blue",
+            "category": "Hand & Body Wash",
+            "description": "A concentrated readily biodegradable pearlescent plant based hand & body wash cleanser. Luxuriously high foaming and containing a rich blend of moisturisers, pH balanced to leave your hands & body nourished & refreshingly clean.\\n You only need one squirt to ensure your hands are hygienically clean leaving behind the sweet fresh scent of the sea.\\n Good hand hygiene starts with Zoosh Hand & Body Wash – helps avoid the spread of germs.",
+            "how_to_use": "Simply dispense 1-2 pumps onto palm of hands or bath sponge. Lather up over hands or body and rinse thoroughly under running water then dry hands. Suitable for use as a hand, face & all over body cleanser.",
+            "dotpoints": [
+                "Environmentally responsible",
+                "Highly Concentrated ",
+                "Readily biodegradable cleansers ",
+                "Contains plant based ingredients",
+                "pH balanced for the skin ",
+                "High foaming",
+                "Contains moisturisers & pearlescent",
+                "Leaves skin feeling soft & supple",
+                "Enriched with heavenly scents",
+                "Food safe colourant",
+                "Gentle on the environment",
+                "Free rinsing ",
+                "No animal testing",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
+        },
+        {
+            "image": {
+                "src": "anti-bacterial-hand-sanitiser.png",
+                "alt": "",
+                "color": "#dc7395"
+            },
+            "name": "Anti-Bacterial",
+            "category": "Hand Sanitiser",
+            "description": "A gentle, plant based anti-bacterial hand sanitiser gel which instantly provides hand sanitation. A fast drying formula, kills 99.999% germs* within 30 seconds without the need for water. Leaves your hands soft, supple and hygienically clean.\\n You only need one squirt to ensure your hands are sanitised & hygienically clean.\\n Good hand hygiene starts with Zoosh Hand Sanitiser – helps avoid the spread of germs.",
+            "how_to_use": "Simply dispense 1-2 pumps onto palm of clean hands. Spread and rub over the back of hands and fingertips for 30 seconds. Allow hands to air dry.",
+            "dotpoints": [
+                "Environmentally responsible",
+                "Contains plant based ingredients",
+                "Anti-bacterial",
+                "Contains 70% Ethanol ",
+                "Kills 99.999% germs* within 30 seconds  ",
+                "Meets BS EN 1276:1997 Chemical Disinfectants & Antiseptics",
+                "Dries fast ",
+                "Contains moisturisers ",
+                "Leaves hands feeling soft ",
+                "Gentle on the environment",
+                "Gel formula – no rinse – no fuss",
+                "No need for water ",
+                "Quick & convenient ",
+                "No animal testing",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
+        }
+    ]
+}
