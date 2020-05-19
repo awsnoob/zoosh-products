@@ -12,6 +12,8 @@ import "../styles/global.css" // global stylesheet
 import JSONData from "../data/products.json"
 
 const HomePage = () => {
+    //
+
     const isMobile = () => {
         return typeof document !== "undefined" &&
             document.documentElement.clientWidth > 700
@@ -25,7 +27,7 @@ const HomePage = () => {
             scrollHorizontally={true}
             touchSensitivity={20}
             responsiveWidth={700}
-            render={comp => (
+            render={({ fullpageApi }) => (
                 <ReactFullpage.Wrapper>
                     <div id="opening" className="section">
                         <Helmet>
@@ -73,7 +75,11 @@ const HomePage = () => {
                         <div className="products-wrap">
                             {JSONData.products.map((data, index) => {
                                 return (
-                                    <Product key={`key_${index}`} data={data} />
+                                    <Product
+                                        key={`key_${index}`}
+                                        data={data}
+                                        fullpageApi={fullpageApi}
+                                    />
                                 )
                             })}
                         </div>

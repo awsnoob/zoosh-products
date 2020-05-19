@@ -1,14 +1,29 @@
-import React from "react"
+import React, { useState } from "react"
 
 import ProductIcons from "../components/product-icons"
 
-const Product = ({ data }) => {
-    // console.log(data)
+const Product = props => {
+    //
+    const data = props.data
+    const fullpageApi = props.fullpageApi
+
+    const [showFeatures, setShowFeatures] = useState(false)
+
     const features = data.dotpoints.map((dotpoint, i) => (
         <li key={i} style={{ listStyleType: "none" }}>
             {dotpoint}
         </li>
     ))
+
+    const animationTime = 300
+
+    const clickHandler = event => {
+        event.preventDefault()
+        setShowFeatures(!showFeatures)
+        setTimeout(() => {
+            fullpageApi.reBuild()
+        }, animationTime)
+    }
 
     return (
         <div className="product-wrap">
@@ -16,7 +31,7 @@ const Product = ({ data }) => {
                 style={{
                     backgroundColor: data.image.color,
                     padding: "3rem",
-                    marginBottom: "3rem",
+                    marginBottom: "6rem",
                 }}
             >
                 <div
@@ -49,18 +64,45 @@ const Product = ({ data }) => {
                 </div>
                 <div
                     style={{
-                        marginBottom: "4rem",
+                        marginBottom: "2rem",
                     }}
                 >
-                    <h4>FEATURES & BENEFITS</h4>
-                    <ul
+                    <p>
+                        <a
+                            style={{
+                                textDecoration: "none",
+                                fontWeight: "400",
+                                color: "#1e78c2",
+                            }}
+                            href="#view-features-and-benefits"
+                            onClick={e => clickHandler(e)}
+                        >
+                            Read more
+                        </a>
+                    </p>
+                    <div
                         style={{
-                            paddingLeft: "0",
-                            marginBottom: "0",
+                            maxHeight: showFeatures ? "1000px" : "0px",
+                            transition: `max-height ${animationTime}ms ease-out`,
+                            overflow: "hidden",
                         }}
                     >
-                        {features}
-                    </ul>
+                        <h4
+                            style={{
+                                marginTop: "2rem",
+                            }}
+                        >
+                            FEATURES & BENEFITS
+                        </h4>
+                        <ul
+                            style={{
+                                paddingLeft: "0px",
+                                marginBottom: "0px",
+                            }}
+                        >
+                            {features}
+                        </ul>
+                    </div>
                 </div>
                 <ProductIcons />
             </div>

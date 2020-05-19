@@ -6,6 +6,7 @@
                 "alt": "Lemon Myrtle Dishwash Concentrate product image",
                 "color": "#fdae30"
             },
+            "banner_width_as_percentage": "40",
             "name": "Lemon Myrtle",
             "category": "Dishwash Liquid",
             "description": "A concentrated readily biodegradable plant based cleaner. Powers through grease yet gentle on your hands & the environment. \\n You only need a small squirt leaving dishes sparkling clean with a fresh Lemon Myrtle scent.",
@@ -31,6 +32,7 @@
                 "alt": "Kakadu Plum Dishwash Concentrate product image",
                 "color": "#288a3e"
             },
+            "banner_width_as_percentage": "40",
             "name": "Kakadu Plum",
             "category": "Dishwash Liquid",
             "description": "A concentrated readily biodegradable plant based cleaner. Powers through grease yet gentle on your hands & the environment. \\n You only need a small squirt leaving dishes sparkling clean with a fresh Kakadu Plum scent.",
@@ -57,6 +59,7 @@
                 "alt": "Finger Lime All Purpose Cleaner product image",
                 "color": "#c62724"
             },
+            "banner_width_as_percentage": "60",
             "name": "Finger Lime",
             "category": "All Purpose Cleaner",
             "description": "An eco friendly cleaner designed to clean all washable hard surfaces leaving behind a fresh Finger Lime scent.",
@@ -85,6 +88,7 @@
                 "alt": "Frangipani All Purpose Cleaner product image",
                 "color": "#f3431c"
             },
+            "banner_width_as_percentage": "60",
             "name": "Frangipani",
             "category": "All Purpose Cleaner",
             "description": "An eco friendly cleaner designed to clean all washable hard surfaces leaving behind a fresh Frangipani scent.",
@@ -110,9 +114,10 @@
         {
             "image": {
                 "src": "hand-and-body-wash-acacia-breeze.png",
-                "alt": "",
+                "alt": "Acacia Breeze Hand & Body Wash product image",
                 "color": "#a87fb4"
             },
+            "banner_width_as_percentage": "30",
             "name": "Acacia Breeze",
             "category": "Hand & Body Wash",
             "description": "A concentrated readily biodegradable pearlescent plant based hand & body wash cleanser. Luxuriously high foaming and containing a rich blend of moisturisers, pH balanced to leave your hands & body nourished & refreshingly clean.\\n You only need one squirt to ensure your hands are hygienically clean leaving behind the fresh scent of the Australian outback.\\n Good hand hygiene starts with Zoosh Hand & Body Wash – helps avoid the spread of germs.",
@@ -138,9 +143,10 @@
         {
             "image": {
                 "src": "hand-and-body-wash-coorong-blue.png",
-                "alt": "",
+                "alt": "Coorong Blue Hand & Body Wash product image",
                 "color": "#69b9b3"
             },
+            "banner_width_as_percentage": "30",
             "name": "Coorong Blue",
             "category": "Hand & Body Wash",
             "description": "A concentrated readily biodegradable pearlescent plant based hand & body wash cleanser. Luxuriously high foaming and containing a rich blend of moisturisers, pH balanced to leave your hands & body nourished & refreshingly clean.\\n You only need one squirt to ensure your hands are hygienically clean leaving behind the sweet fresh scent of the sea.\\n Good hand hygiene starts with Zoosh Hand & Body Wash – helps avoid the spread of germs.",
@@ -167,9 +173,10 @@
         {
             "image": {
                 "src": "anti-bacterial-hand-sanitiser.png",
-                "alt": "",
+                "alt": "Anti-Bacterial Hand Sanitiser product image",
                 "color": "#dc7395"
             },
+            "banner_width_as_percentage": "30",
             "name": "Anti-Bacterial",
             "category": "Hand Sanitiser",
             "description": "A gentle, plant based anti-bacterial hand sanitiser gel which instantly provides hand sanitation. A fast drying formula, kills 99.999% germs* within 30 seconds without the need for water. Leaves your hands soft, supple and hygienically clean.\\n You only need one squirt to ensure your hands are sanitised & hygienically clean.\\n Good hand hygiene starts with Zoosh Hand Sanitiser – helps avoid the spread of germs.",

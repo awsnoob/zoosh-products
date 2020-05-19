@@ -1,6 +1,6 @@
 import React from "react"
 
-const Slide = ({ data, text }) => {
+const Slide = ({ data, text, textWidth }) => {
     return (
         <div>
             <div className="slide-wrap">
@@ -19,10 +19,7 @@ const Slide = ({ data, text }) => {
                 >
                     <div
                         style={{
-                            width:
-                                data[0].category === "All Purpose Cleaner"
-                                    ? "27%"
-                                    : "33%",
+                            width: textWidth,
                             marginBottom: "3rem",
                         }}
                     >
@@ -54,10 +51,7 @@ const Slide = ({ data, text }) => {
                                 src={`./images/products/${data.image.src}`}
                                 alt=""
                                 style={{
-                                    maxWidth:
-                                        data.category === "All Purpose Cleaner"
-                                            ? "60%"
-                                            : "38%",
+                                    maxWidth: `${data.banner_width_as_percentage}%`,
                                 }}
                             />
                         </div>
