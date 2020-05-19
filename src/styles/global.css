@@ -90,9 +90,9 @@ li {
 
 .product-icons-wrap {
     display: grid;
-    grid-template-columns: 30% 13% 13% 14% 20.5%;
+    column-gap: 5%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
 }
 

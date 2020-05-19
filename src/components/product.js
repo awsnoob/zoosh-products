@@ -104,7 +104,7 @@ const Product = props => {
                         </ul>
                     </div>
                 </div>
-                <ProductIcons />
+                <ProductIcons category={data.category} />
             </div>
         </div>
     )
