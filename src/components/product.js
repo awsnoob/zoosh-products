@@ -6,6 +6,7 @@ const Product = props => {
     //
     const data = props.data
     const fullpageApi = props.fullpageApi
+    const isMobile = props.isMobile
 
     const [showFeatures, setShowFeatures] = useState(false)
 
@@ -20,9 +21,12 @@ const Product = props => {
     const clickHandler = event => {
         event.preventDefault()
         setShowFeatures(!showFeatures)
-        setTimeout(() => {
-            fullpageApi.reBuild()
-        }, animationTime)
+        console.log(isMobile())
+        if (isMobile()) {
+            setTimeout(() => {
+                fullpageApi.reBuild()
+            }, animationTime)
+        }
     }
 
     return (

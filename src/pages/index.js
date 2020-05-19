@@ -79,6 +79,7 @@ const HomePage = () => {
                                         key={`key_${index}`}
                                         data={data}
                                         fullpageApi={fullpageApi}
+                                        isMobile={isMobile}
                                     />
                                 )
                             })}
