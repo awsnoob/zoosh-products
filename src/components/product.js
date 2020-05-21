@@ -21,7 +21,6 @@ const Product = props => {
     const clickHandler = event => {
         event.preventDefault()
         setShowFeatures(!showFeatures)
-        console.log(isMobile())
         if (isMobile()) {
             setTimeout(() => {
                 fullpageApi.reBuild()

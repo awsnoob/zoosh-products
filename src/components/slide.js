@@ -45,6 +45,7 @@ const Slide = ({ data, text, textWidth }) => {
                                 alignItems: "center",
                                 flexGrow: 1,
                                 padding: "4rem 0",
+                                maxWidth: "50%",
                             }}
                         >
                             <img

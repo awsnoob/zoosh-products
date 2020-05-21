@@ -1,12 +1,27 @@
 import React from "react"
 
-import CatchPhrase from "../components/svg/powers-through-grease"
+import PowersThroughGrease from "../components/svg/powers-through-grease"
 import NoAminalTesting from "../components/svg/no-animal-testing"
 import RecyclableBottle from "../components/svg/recyclable-bottle"
 import GreyWaterSafe from "../components/svg/grey-water-safe"
 import AustralianMade from "../components/svg/australian-made"
+import SoftHygenicallyClean from "../components/svg/soft-hygenically-clean"
 
 export default ({ category }) => {
+    //
+
+    const isHygenicallyClean = category => {
+        return category === "Hand Sanitiser" || category === "Hand & Body Wash"
+    }
+
+    const CatchPhrase = isHygenicallyClean(category) ? (
+        <SoftHygenicallyClean />
+    ) : (
+        <PowersThroughGrease />
+    )
+
+    const catchPhraseSize = isHygenicallyClean(category) ? "35%" : "30%"
+
     return (
         <div
             id="productIcons"
@@ -14,11 +29,11 @@ export default ({ category }) => {
             style={{
                 gridTemplateColumns:
                     category !== "Hand Sanitiser"
-                        ? "30% 13% 13% 14% 20%"
-                        : "30% 13% 13% 20%",
+                        ? `${catchPhraseSize} 13% 13% 14% 20%`
+                        : `${catchPhraseSize} 13% 13% 20%`,
             }}
         >
-            <CatchPhrase />
+            {CatchPhrase}
 
             <NoAminalTesting />
 
