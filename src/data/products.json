@@ -117,7 +117,7 @@
                 "alt": "Acacia Breeze Hand & Body Wash product image",
                 "color": "#a87fb4"
             },
-            "banner_width_as_percentage": "31",
+            "banner_width_as_percentage": "29",
             "name": "Acacia Breeze",
             "category": "Hand & Body Wash",
             "description": "A concentrated readily biodegradable pearlescent plant based hand & body wash cleanser. Luxuriously high foaming and containing a rich blend of moisturisers, pH balanced to leave your hands & body nourished & refreshingly clean.\\n You only need one squirt to ensure your hands are hygienically clean leaving behind the fresh scent of the Australian outback.\\n Good hand hygiene starts with Zoosh Hand & Body Wash – helps avoid the spread of germs.",
@@ -144,9 +144,9 @@
             "image": {
                 "src": "hand-and-body-wash-coorong-blue.png",
                 "alt": "Coorong Blue Hand & Body Wash product image",
-                "color": "#69b9b3"
+                "color": "#26C3EB"
             },
-            "banner_width_as_percentage": "31",
+            "banner_width_as_percentage": "29",
             "name": "Coorong Blue",
             "category": "Hand & Body Wash",
             "description": "A concentrated readily biodegradable pearlescent plant based hand & body wash cleanser. Luxuriously high foaming and containing a rich blend of moisturisers, pH balanced to leave your hands & body nourished & refreshingly clean.\\n You only need one squirt to ensure your hands are hygienically clean leaving behind the sweet fresh scent of the sea.\\n Good hand hygiene starts with Zoosh Hand & Body Wash – helps avoid the spread of germs.",
@@ -176,7 +176,7 @@
                 "alt": "Anti-Bacterial Hand Sanitiser product image",
                 "color": "#dc7395"
             },
-            "banner_width_as_percentage": "33",
+            "banner_width_as_percentage": "36",
             "name": "Anti-Bacterial",
             "category": "Hand Sanitiser",
             "description": "A gentle, plant based anti-bacterial hand sanitiser gel which instantly provides hand sanitation. A fast drying formula, kills 99.999% germs* within 30 seconds without the need for water. Leaves your hands soft, supple and hygienically clean.\\n You only need one squirt to ensure your hands are sanitised & hygienically clean.\\n Good hand hygiene starts with Zoosh Hand Sanitiser – helps avoid the spread of germs.",
@@ -193,6 +193,39 @@
                 "Leaves hands feeling soft ",
                 "Gentle on the environment",
                 "Gel formula – no rinse – no fuss",
+                "No need for water ",
+                "Quick & convenient ",
+                "No animal testing",
+                "Recyclable bottle",
+                "Australian Made",
+                "Designed with the Planet in mind"
+            ]
+        },
+        {
+            "image": {
+                "src": "anti-bacterial-surface-spray.png",
+                "alt": "Anti-Bacterial Surface Spray Sanitiser product image",
+                "color": "#54A7D9"
+            },
+            "banner_width_as_percentage": "36",
+            "name": "Anti-Bacterial",
+            "category": "Surface Spray Sanitiser",
+            "description": "A plant based anti-bacterial surface spray which provides sanitation for pre-cleaned soft & hard surfaces around the home & office. A fast drying formula, kills 99.9% germs* leaving surfaces sanitised, deodorised, streak free & naturally hygienically clean.\\n Good hygiene starts with clean surfaces where you live & work.",
+            "how_to_use": "Simply spray surface requiring sanitation & allow surface to air dry.",
+            "dotpoints": [
+                "Contains plant based ingredients",
+                "Anti-bacterial",
+                "Contains 80% Ethanol ",
+                "Kills 99.9% germs* within 30 seconds",
+                "Meets BS EN 1276*",
+                "Leaves surfaces sanitised",
+                "Suitable soft & hard surfaces",
+                "Dries fast – streak free ",
+                "Contains odour absorbers ",
+                "Eliminates odours at the source",
+                "Leaves fresh Citrus scent ",
+                "Suitable for sanitising benchtops, basins, bins, glass & chrome",
+                "No rinse – no fuss",
                 "No need for water ",
                 "Quick & convenient ",
                 "No animal testing",
