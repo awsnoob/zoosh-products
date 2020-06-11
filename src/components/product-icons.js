@@ -11,7 +11,11 @@ export default ({ category }) => {
     //
 
     const isHygenicallyClean = category => {
-        return category === "Hand Sanitiser" || category === "Hand & Body Wash"
+        return (
+            category === "Hand Sanitiser" ||
+            category === "Hand & Body Wash" ||
+            category === "Surface Spray Sanitiser"
+        )
     }
 
     const CatchPhrase = isHygenicallyClean(category) ? (
@@ -28,7 +32,8 @@ export default ({ category }) => {
             className="product-icons-wrap"
             style={{
                 gridTemplateColumns:
-                    category !== "Hand Sanitiser"
+                    category !== "Hand Sanitiser" &&
+                    category !== "Surface Spray Sanitiser"
                         ? `${catchPhraseSize} 13% 13% 14% 20%`
                         : `${catchPhraseSize} 13% 13% 20%`,
             }}
@@ -39,7 +44,10 @@ export default ({ category }) => {
 
             <RecyclableBottle />
 
-            {category !== "Hand Sanitiser" ? <GreyWaterSafe /> : null}
+            {category !== "Hand Sanitiser" &&
+            category !== "Surface Spray Sanitiser" ? (
+                <GreyWaterSafe />
+            ) : null}
 
             <AustralianMade />
         </div>
