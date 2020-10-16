@@ -233,6 +233,36 @@
                 "Australian Made",
                 "Designed with the Planet in mind"
             ]
+        },
+        {
+            "image": {
+                "src": "kakaduspirit.png",
+                "alt": "Anti-Bacterial Hand Sanitiser product image",
+                "color": "#65d954"
+            },
+            "banner_width_as_percentage": "36",
+            "name": "Anti-Bacterial",
+            "category": "Hand Sanitiser",
+            "description": "A gentle, plant based anti-bacterial hand sanitiser gel which instantly provides hand sanitation. A fast drying formula, kills 99.9% germs* within 30 seconds without the need for water. Leaves your hands soft, supple and hygienically clean. You only need one squirt to ensure your hands are sanitised & hygienically clean. Good hand hygiene starts with Zoosh Hand Sanitiser Kakadu Spirit – helps avoid the spread of germs.",
+            "how_to_use": "Simply dispense 1-2 pumps onto palm of clean hands. Spread and rub over the back of hands and fingertips for 30 seconds. Allow hands to air dry.",
+            "dotpoints": [
+                "Environmentally responsible",
+                "Contains plant based ingredients",
+                "Anti-bacterial",
+                "Highly Concentrated",
+                "Contains 80% Ethanol ",
+                "Contains essential oils",
+                "Leaves hands with a subtle Kakadu plum scent",
+                "Kills 99.9% germs* within 30 seconds",
+                "Meets BS EN 13727:2012* Chemical Disinfectants & Antiseptics",
+                "Dries fast",
+                "Contains high level of skin moisturisers",
+                "Leaves hands feeling soft & supple",
+                "Gentle on the environment",
+                "Gel formula – no rinse – no fuss",
+                "No need for water",
+                "Quick & convenient"
+            ]
         }
     ]
 }
